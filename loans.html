@@ -1,1 +1,24 @@
-best loan offer
+<!doctype html>
+<<html>
+  <head>
+    <title>Better loan offer</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <script type="text/javascript">;
+     var principal= 100000;
+     var rate= 0.10;
+     var time= 2;
+     var rateII= 0.025;
+     var number= 12;
+     var power= number*time;
+     var rateIInumber= rateII/number;
+     var score= 1+rateIInumber
+     var simpleinterest = principal*rate*time;
+     console.log(simpleinterest);
+    var compoundinterest =principal*score**power-principal;
+    console.log(compoundinterest);
+    console.log("BankB has a better loan offer")
+   </script>
+  </body>
+</html>
